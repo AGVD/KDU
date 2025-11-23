@@ -10,3 +10,11 @@ clone_folder: c:\projects\kdu
 build:
   project: Source/kdu.sln
   verbosity: normal
+
+  artifacts:
+  - path: test.zip
+    name: MyApp
+
+  - path: logs
+    name: test logs
+    type: zip
